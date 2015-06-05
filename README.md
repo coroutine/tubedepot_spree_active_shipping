@@ -1,8 +1,7 @@
 Active Shipping
 ===============
 
-[![Build
-Status](https://secure.travis-ci.org/spree/spree_active_shipping.png)](http://travis-ci.org/spree/spree_active_shipping)
+#### Forked to fix a problem with the Tube Depot site.  USPS changed some stuff in regards to shipping to Canada, which caused Spree to think there was a free shipping option to Canada.  Oops!  Not good.  The active_shipping gem was eventually fixed, and version 0.12.6 is the one that should work with the 2-0-stable branch of spree_active_shipping.  This fork is essentially to fix the version dependency on the active_shipping gem.  The Tube Depot site should continue to use the 2-0-stable branch of tubedepot_spree_active_shipping while the site is still on Spree 2.0.
 
 This is a Spree extension that wraps the popular [active_shipping](http://github.com/Shopify/active_shipping/tree/master) plugin.
 
